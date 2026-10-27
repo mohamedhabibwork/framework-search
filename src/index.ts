@@ -3,13 +3,7 @@
 // `./constants`; runtime values (engines, indexer, manager, provider) stay in their modules.
 export type { SearchConfig, SearchIndexDeclaration } from './config-schema';
 export { defaultSearchConfig, searchConfigSchema, searchIndexDeclarationSchema } from './config-schema';
-export {
-  DEFAULT_SEARCH_LIMIT,
-  SEARCH_ENGINE,
-  SEARCH_INDEX_JOB,
-  SEARCH_MANAGER,
-  SOFT_DELETE_FIELD,
-} from './constants';
+export { DEFAULT_SEARCH_LIMIT, SEARCH_ENGINE, SEARCH_INDEX_JOB, SEARCH_MANAGER, SOFT_DELETE_FIELD } from './constants';
 export type { CapabilityReporter, SearchCapability } from './engine';
 export {
   assertQuerySupported,

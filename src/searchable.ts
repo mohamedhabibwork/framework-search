@@ -15,7 +15,7 @@ import type { SearchDocument, SearchIndex } from './types';
 
 // TypeScript's mixin pattern requires a constructor accepting any arguments
 // (mirrors @framework/database's own `RepositoryConstructor`).
-// biome-ignore lint/suspicious/noExplicitAny: required mixin constructor signature
+// oxlint-disable-next-line typescript/no-explicit-any -- required mixin constructor signature
 type RepositoryConstructor = abstract new (...args: any[]) => RepositoryCore<CrudTable>;
 
 export interface SearchableOptions<TTable extends CrudTable> {
