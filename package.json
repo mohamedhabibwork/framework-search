@@ -31,7 +31,7 @@
     "@framework/events": "workspace:*",
     "@framework/queue": "workspace:*",
     "drizzle-orm": "0.45.4",
-    "hono": "4.13.13",
+    "hono": "4.13.16",
     "zod": "4.6.7"
   },
   "devDependencies": {
